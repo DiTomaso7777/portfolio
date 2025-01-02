@@ -20,11 +20,10 @@ export default function Header() {
         </linearGradient>
       </defs>
       <path
-        d="M20 5L30 15L20 25L10 15L20 5Z"
+        d="M10 25 C10 28 12 30 15 30 L25 30 C28 30 30 28 30 25 C32 25 35 23 35 20 C35 17 32 15 30 15 C30 12 28 10 25 10 C22 10 20 12 20 15 C18 12 15 10 12 10 C8 10 5 13 5 17 C5 21 8 25 10 25"
         fill="url(#gradient)"
         className="animate-pulse"
       />
-      <circle cx="20" cy="20" r="15" stroke="url(#gradient)" strokeWidth="2" fill="none" />
     </svg>
     <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-600">
       Skynet Cloud
