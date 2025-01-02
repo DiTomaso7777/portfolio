@@ -23,7 +23,7 @@ export default function Resume() {
         >
           <div className="relative w-48 h-48">
             <Image
-              src="/outfit.jpg"
+              src="https://i.ibb.co/vwG4WW7/outfit.jpg"
               alt="Profile Picture"
               fill
               className="rounded-full object-cover border-4 border-blue-500"
