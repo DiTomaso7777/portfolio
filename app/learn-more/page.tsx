@@ -123,40 +123,40 @@ export default function Resume() {
 
         {/* Contact Section */}
         <motion.div 
-          className="text-center"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8 }}
-        >
-          <div className="flex justify-center space-x-4">
-          <Link 
+            className="text-center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.8 }}
+            >
+            <div className="flex justify-center items-center divide-x divide-blue-200">
+                <Link 
                 href="/"
-                className="text-blue-600 hover:text-blue-800"
-            >
+                className="text-blue-600 hover:text-blue-800 px-4"
+                >
                 Home
-            </Link>
-            <Link 
-              href="https://github.com/yourusername" 
-              target="_blank"
-              className="text-blue-600 hover:text-blue-800"
-            >
-              GitHub
-            </Link>
-            <Link 
-              href="https://linkedin.com/in/yourusername" 
-              target="_blank"
-              className="text-blue-600 hover:text-blue-800"
-            >
-              LinkedIn
-            </Link>
-            <Link 
-            href="/contact-me"
-            className="text-blue-600 hover:text-blue-800"
-            >
-            Book a Meeting
-            </Link>
-          </div>
-        </motion.div>
+                </Link>
+                <Link 
+                href="https://github.com/yourusername" 
+                target="_blank"
+                className="text-blue-600 hover:text-blue-800 px-4"
+                >
+                GitHub
+                </Link>
+                <Link 
+                href="https://linkedin.com/in/yourusername" 
+                target="_blank"
+                className="text-blue-600 hover:text-blue-800 px-4"
+                >
+                LinkedIn
+                </Link>
+                <Link 
+                href="/contact-me"
+                className="text-blue-600 hover:text-blue-800 px-4"
+                >
+                Book a Meeting
+                </Link>
+            </div>
+            </motion.div>
       </div>
     </div>
   );
