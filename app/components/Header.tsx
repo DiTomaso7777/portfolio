@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+    const pathname = usePathname();
   return (
     <header className="fixed top-0 w-full bg-white shadow-md z-50">
       <nav className="container mx-auto px-4 py-3 flex items-center justify-between">
@@ -33,16 +35,44 @@ export default function Header() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6">
-          <Link href="/" className="text-gray-600 hover:text-blue-500 transition">
+          <Link 
+            href="/" 
+            className={`transition ${
+              pathname === '/' 
+                ? 'text-blue-500 font-semibold' 
+                : 'text-gray-600 hover:text-blue-500'
+            }`}
+          >
             Home
           </Link>
-          <Link href="/about" className="text-gray-600 hover:text-blue-500 transition">
+          <Link 
+            href="/about" 
+            className={`transition ${
+              pathname === '/about' 
+                ? 'text-blue-500 font-semibold' 
+                : 'text-gray-600 hover:text-blue-500'
+            }`}
+          >
             About
           </Link>
-          <Link href="/services" className="text-gray-600 hover:text-blue-500 transition">
+          <Link 
+            href="/services" 
+            className={`transition ${
+              pathname === '/services' 
+                ? 'text-blue-500 font-semibold' 
+                : 'text-gray-600 hover:text-blue-500'
+            }`}
+          >
             Services
           </Link>
-          <Link href="/contact-me" className="text-gray-600 hover:text-blue-500 transition">
+          <Link 
+            href="/contact-me" 
+            className={`transition ${
+              pathname === '/contact-me' 
+                ? 'text-blue-500 font-semibold' 
+                : 'text-gray-600 hover:text-blue-500'
+            }`}
+          >
             Contact
           </Link>
         </div>
