@@ -86,6 +86,7 @@ export default function Header() {
           </button>
         </div>
       </nav>
+      <div className="w-full h-5 md:h-[2px] bg-gradient-to-r from-blue-500 to-blue-600" />
     </header>
   );
 }
