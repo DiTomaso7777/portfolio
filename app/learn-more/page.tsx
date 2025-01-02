@@ -129,6 +129,12 @@ export default function Resume() {
           transition={{ delay: 0.8 }}
         >
           <div className="flex justify-center space-x-4">
+          <Link 
+                href="/"
+                className="text-blue-600 hover:text-blue-800"
+            >
+                Home
+            </Link>
             <Link 
               href="https://github.com/yourusername" 
               target="_blank"
@@ -144,10 +150,10 @@ export default function Resume() {
               LinkedIn
             </Link>
             <Link 
-              href="mailto:your.email@example.com"
-              className="text-blue-600 hover:text-blue-800"
+            href="/contact-me"
+            className="text-blue-600 hover:text-blue-800"
             >
-              Email
+            Book a Meeting
             </Link>
           </div>
         </motion.div>
