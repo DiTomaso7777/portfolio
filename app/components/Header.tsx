@@ -46,9 +46,9 @@ export default function Header() {
             Home
           </Link>
           <Link 
-            href="/about" 
+            href="/learn-more" 
             className={`transition ${
-              pathname === '/about' 
+              pathname === '/learn-more' 
                 ? 'text-blue-500 font-semibold' 
                 : 'text-gray-600 hover:text-blue-500'
             }`}
@@ -56,14 +56,14 @@ export default function Header() {
             About
           </Link>
           <Link 
-            href="/services" 
+            href="/my-projects" 
             className={`transition ${
-              pathname === '/services' 
+              pathname === '/my-projects' 
                 ? 'text-blue-500 font-semibold' 
                 : 'text-gray-600 hover:text-blue-500'
             }`}
           >
-            Services
+            Projects
           </Link>
           <Link 
             href="/contact-me" 
