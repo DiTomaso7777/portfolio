@@ -1,10 +1,28 @@
 "use client";
-
+import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Resume() {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const images = [
+        "https://i.ibb.co/vwG4WW7/outfit.jpg",
+        "https://i.ibb.co/ccSq0ZZ/me2.jpg",
+        // Add more images as needed
+      ];
+
+      useEffect(() => {
+        const interval = setInterval(() => {
+          setCurrentImageIndex((prevIndex) => 
+            prevIndex === images.length - 1 ? 0 : prevIndex + 1
+          );
+        }, 3000);
+    
+        return () => clearInterval(interval);
+      }, []);
+
   return (
     <div
       className="w-screen min-h-screen relative py-16 px-4"
@@ -23,12 +41,12 @@ export default function Resume() {
         >
           <div className="relative w-48 h-48">
             <Image
-              src="https://i.ibb.co/vwG4WW7/outfit.jpg"
-              alt="Profile Picture"
-              fill
-              className="rounded-full object-cover border-4 border-blue-500"
+                src={images[currentImageIndex]}
+                alt="Profile Picture"
+                fill
+                className="rounded-full object-cover border-4 border-blue-500 transition-opacity duration-500"
             />
-          </div>
+            </div>
           <div>
             <h1 className="text-4xl font-bold mb-2">Marius Radulescu</h1>
             <h2 className="text-2xl text-blue-600 mb-4">Enterprise Architect</h2>
