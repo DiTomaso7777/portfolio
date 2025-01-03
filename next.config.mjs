@@ -19,7 +19,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; frame-src 'self' https://outlook.office365.com;"
+            value: "default-src 'self'; frame-src 'self' https://outlook.office365.com; script-src 'self'; style-src 'self';"
           },
         ],
       },
