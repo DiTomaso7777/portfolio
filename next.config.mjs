@@ -17,6 +17,10 @@ const nextConfig = {
             key: 'Strict-Transport-Security',
             value: 'max-age=31536000; includeSubDomains'
           },
+          {
+            key: 'Content-Security-Policy',
+            value: "default-src 'self'; frame-src 'self' https://outlook.office365.com;"
+          },
         ],
       },
     ]
