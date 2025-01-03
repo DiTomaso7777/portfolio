@@ -51,8 +51,7 @@ export default function Resume() {
             <h1 className="text-4xl font-bold mb-2 text-gray-800">Marius Radulescu</h1>
             <h2 className="text-2xl text-blue-600 mb-4">Security Architect - Digitalization & AI Developer</h2>
             <p className="text-gray-600">
-            Enterprise Architect with 8+ years of business leadership and more than 20 years IT presence, specializing in secure system design 
-            and full-stack development. 
+            20+ years of IT excellence, architecting secure systems, 8+ years of business leadership, former MVP for Symantec, and a Microsoft Partner Network consultant.
             </p>
           </div>
         </motion.div>
