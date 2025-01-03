@@ -17,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'" />
+        <meta name="description" content="Where AI meets the sky: Unleashing Security Intelligence" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Remove the redundant Content-Security-Policy */}
       </head>
       <body>{children}</body>
     </html>

@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     remotePatterns: [
@@ -15,11 +14,11 @@ const nextConfig = {
         headers: [
           {
             key: 'Strict-Transport-Security',
-            value: 'max-age=31536000; includeSubDomains'
+            value: 'max-age=31536000; includeSubDomains; preload',  // 'preload' directive for stronger HSTS
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; frame-src 'self' https://outlook.office365.com; script-src 'self'; style-src 'self';"
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-src 'self' https://outlook.office365.com; connect-src 'self'; img-src 'self' https://i.ibb.co; object-src 'none';"
           },
         ],
       },
