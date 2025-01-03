@@ -65,7 +65,7 @@ export default function Resume() {
         >
           <h3 className="text-2xl font-bold mb-4 text-gray-800">Skills</h3>
           <div className="flex flex-wrap gap-2">
-            {["React", "Next.js", "TypeScript", "Node.js", "Azure", "Security Master", "Auth Middleware", "GraphQL", "Digitalization"]
+            {["Identity Master", "Next.js", "M365 Master", "Node.js", "Azure", "Security Master", "Auth Middleware", "Cryptography","GraphQL", "Digitalization"]
               .map((skill, index) => (
                 <span 
                   key={index}
