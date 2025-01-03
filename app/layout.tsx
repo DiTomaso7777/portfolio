@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sknet Cloud SRL",
+  title: "Skynet Cloud SRL",
   description: "Where AI meets the sky: Unleashing Security Intelligence"
 };
 
