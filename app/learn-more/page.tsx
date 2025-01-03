@@ -64,7 +64,7 @@ export default function Resume() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          <h3 className="text-2xl font-bold mb-4">Skills</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">Skills</h3>
           <div className="flex flex-wrap gap-2">
             {["React", "Next.js", "TypeScript", "Node.js", "Azure", "Security Master", "Auth Middleware", "GraphQL", "Digitalization"]
               .map((skill, index) => (
@@ -86,10 +86,10 @@ export default function Resume() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
-          <h3 className="text-2xl font-bold mb-4">Experience</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">Experience</h3>
           <div className="space-y-6">
             <div className="border-l-2 border-blue-500 pl-4">
-              <h4 className="text-xl font-semibold">Security Architect</h4>
+              <h4 className="text-xl font-semibold text-gray-800">Security Architect</h4>
               <div className="flex flex-col space-y-1">
                   <p className="text-blue-600 font-semibold">BMW Group AG</p>
                   <p className="text-blue-500">Munich and South Carolina</p>
@@ -102,7 +102,7 @@ export default function Resume() {
               </p>
             </div>
             <div className="border-l-2 border-blue-500 pl-4">
-              <h4 className="text-xl font-semibold">Technical Migration Manager & Migration Consultant</h4>
+              <h4 className="text-xl font-semibold text-gray-800">Technical Migration Manager & Migration Consultant</h4>
               <div className="flex flex-col space-y-1">
               <p className="text-blue-600 font-semibold">Skynet Cloud & Microsoft Partner Network</p>
               <p className="text-blue-500">Germany and Switzerland</p>
@@ -117,7 +117,7 @@ export default function Resume() {
               </p>
             </div>
             <div className="border-l-2 border-blue-500 pl-4">
-              <h4 className="text-xl font-semibold">Security Consultant and MVP</h4>
+              <h4 className="text-xl font-semibold text-gray-800">Security Consultant and MVP</h4>
               <div className="flex flex-col space-y-1">
               <p className="text-blue-600 font-semibold">Symantec</p>
               <p className="text-blue-500">Athens, Greece</p>
@@ -138,15 +138,15 @@ export default function Resume() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          <h3 className="text-2xl font-bold mb-4">Education</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">Education</h3>
           <div className="border-l-2 border-blue-500 pl-4">
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <h4 className="text-xl font-semibold">MBA Strategic Planning</h4>
+                <h4 className="text-xl font-semibold text-gray-800">MBA Strategic Planning</h4>
                 <p className="text-blue-600">University of Edinburgh • 2018 - 2019</p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold">Bachelor Information Technology</h4>
+                <h4 className="text-xl font-semibold text-gray-800">Bachelor Information Technology</h4>
                 <p className="text-blue-600">Henri Coanda Technical College • 2001 - 2005</p>
               </div>
             </div>
