@@ -48,8 +48,8 @@ export default function Resume() {
             />
             </div>
           <div>
-            <h1 className="text-4xl font-bold mb-2">Marius Radulescu</h1>
-            <h2 className="text-2xl text-blue-600 mb-4">Enterprise Architect</h2>
+            <h1 className="text-4xl font-bold mb-2 text-gray-800">Marius Radulescu</h1>
+            <h2 className="text-2xl text-blue-600 mb-4">Security Architect - Digitalization & AI Developer</h2>
             <p className="text-gray-600">
             Enterprise Architect with 8+ years of business leadership and more than 20 years IT presence, specializing in secure system design 
             and full-stack development. 
@@ -66,7 +66,7 @@ export default function Resume() {
         >
           <h3 className="text-2xl font-bold mb-4">Skills</h3>
           <div className="flex flex-wrap gap-2">
-            {["React", "Next.js", "TypeScript", "Node.js", "Python", "AWS", "Docker", "GraphQL"]
+            {["React", "Next.js", "TypeScript", "Node.js", "Azure", "Security Master", "Auth Middleware", "GraphQL", "Digitalization"]
               .map((skill, index) => (
                 <span 
                   key={index}
@@ -89,22 +89,46 @@ export default function Resume() {
           <h3 className="text-2xl font-bold mb-4">Experience</h3>
           <div className="space-y-6">
             <div className="border-l-2 border-blue-500 pl-4">
-              <h4 className="text-xl font-semibold">Senior Developer</h4>
-              <p className="text-blue-600">Company Name • 2020 - Present</p>
+              <h4 className="text-xl font-semibold">Security Architect</h4>
+              <div className="flex flex-col space-y-1">
+                  <p className="text-blue-600 font-semibold">BMW Group AG</p>
+                  <p className="text-blue-500">Munich and South Carolina</p>
+                  <p className="text-blue-400 text-sm">2024 - Present</p>
+                </div>
               <p className="text-gray-600 mt-2">
-                Led development of multiple successful projects using modern technologies.
-                Mentored junior developers and implemented best practices.
+                Digitalization and automation of the eDiscovery process: my role as a main developer of the eDiscovery app and integration with required platforms.
+                Privileged Access Management: design and implementation of the PAM solution for the BMW Group Exchange Online.
+                eDiscovery process 
               </p>
             </div>
             <div className="border-l-2 border-blue-500 pl-4">
-              <h4 className="text-xl font-semibold">Full Stack Developer</h4>
-              <p className="text-blue-600">Previous Company • 2018 - 2020</p>
+              <h4 className="text-xl font-semibold">Technical Migration Manager & Migration Consultant</h4>
+              <div className="flex flex-col space-y-1">
+              <p className="text-blue-600 font-semibold">Skynet Cloud & Microsoft Partner Network</p>
+              <p className="text-blue-500">Germany and Switzerland</p>
+              <p className="text-blue-400 text-sm">2016 - 2024</p>
+            </div>
               <p className="text-gray-600 mt-2">
-                Developed and maintained various web applications.
-                Collaborated with cross-functional teams to deliver high-quality solutions.
+                Technical Migration Manager & Migration Consultant for the Microsoft Partner Network and Skynet Cloud.
+                Migration of the Exchange Servers to the Microsoft 365 platform.
+                Implementation of the Microsoft Teams platform as a collaboration tool and PSTN solution - calling and meeting.
+                Migration of the SharePoint Server to the Microsoft 365 platform. 
+                Design of the SharePoint Online platform and implementation of the required security settings.
+              </p>
+            </div>
+            <div className="border-l-2 border-blue-500 pl-4">
+              <h4 className="text-xl font-semibold">Security Consultant and MVP</h4>
+              <div className="flex flex-col space-y-1">
+              <p className="text-blue-600 font-semibold">Symantec</p>
+              <p className="text-blue-500">Athens, Greece</p>
+              <p className="text-blue-400 text-sm">2010 - 2012</p>
+            </div>
+              <p className="text-gray-600 mt-2">
+              Most Valuable Professional specializing in email security, backup solutions, and endpoint protection.
               </p>
             </div>
           </div>
+          
         </motion.div>
 
         {/* Education Section */}
@@ -116,8 +140,16 @@ export default function Resume() {
         >
           <h3 className="text-2xl font-bold mb-4">Education</h3>
           <div className="border-l-2 border-blue-500 pl-4">
-            <h4 className="text-xl font-semibold">Bachelor in Computer Science</h4>
-            <p className="text-blue-600">University Name • 2014 - 2018</p>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <h4 className="text-xl font-semibold">MBA Strategic Planning</h4>
+                <p className="text-blue-600">University of Edinburgh • 2018 - 2019</p>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold">Bachelor Information Technology</h4>
+                <p className="text-blue-600">Henri Coanda Technical College • 2001 - 2005</p>
+              </div>
+            </div>
           </div>
         </motion.div>
 
@@ -136,7 +168,7 @@ export default function Resume() {
                 Home
                 </Link>
                 <Link 
-                href="https://github.com/yourusername" 
+                href="https://github.com/DiTomaso7777" 
                 target="_blank"
                 className="text-blue-600 hover:text-blue-800 px-4"
                 >
