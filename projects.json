@@ -1,0 +1,95 @@
+{
+    "projects": [
+      {
+        "partner": "EDV Königstein",
+        "role": "Project Manager",
+        "duration": "6 months ( 2018 )",
+        "keyProject": "EON AG",
+        "description": "Carve Out project to separate Uniper Energy and migrate Office, SCCM and Exchange OnPremises to Office 365. ( 105 000 users )"
+      },
+      {
+        "partner": "Datac / Deutsche Telekom",
+        "role": "Senior Technical Consultant",
+        "duration": "1 month ( 2018 )",
+        "keyProject": "Simovative",
+        "description": "Migration of Exchange 2010 to Exchange Online. Exchange Hybrid Coexistence."
+      },
+      {
+        "partner": "Datac / Deutsche Telekom",
+        "role": "Project Manager",
+        "duration": "4 months ( 2018 )",
+        "keyProject": "WAGO",
+        "description": "Hybrid Identity, Migration of Exchange 2010 to Exchange Online ( 6000 users)"
+      },
+      {
+        "partner": "Mondaycoffee",
+        "role": "Project Manager",
+        "duration": "2 months ( 2019 )",
+        "keyProject": "Bank Now",
+        "description": "Hybrid Identity, Migration of Exchange 2013 to Exchange Online (800 users), consulting the Credit Suisse IT"
+      },
+      {
+        "partner": "Mondaycoffee",
+        "role": "Project Manager",
+        "duration": "1 month (2020 )",
+        "keyProject": "Swissunihockey",
+        "description": "Implementation of Microsoft Teams with AudioCodes SBC phone system ( 100 users)"
+      },
+      {
+        "partner": "PCO GmbH",
+        "role": "Senior Technical Consultant",
+        "duration": "6 months ( 2022 )",
+        "keyProject": "Doerken AG",
+        "description": "Lotus Notes Migration to Exchange Online with Quest MNE ( 1400 users )"
+      },
+      {
+        "partner": "PCO GmbH",
+        "role": "Project Manager",
+        "duration": "6 months ( 2022 )",
+        "keyProject": "Hagedorn Schuettflix",
+        "description": "Carve Out project to separate Schuettflix from Hagedorn, Cloud Identity, Federation with Okta, Intune, Client Migration ( 6000 users )"
+      },
+      {
+        "partner": "PCO GmbH",
+        "role": "Senior Technical Consultant",
+        "duration": "3 months ( 2022 )",
+        "keyProject": "Egeplast",
+        "description": "Implementation of Microsoft Defender for Endpoint. (800 users)"
+      },
+      {
+        "partner": "Sits AG",
+        "role": "Senior Technical Consultant",
+        "duration": "6 months ( 2022 )",
+        "keyProject": "Partners Group",
+        "description": "Strategic planning for the implementations of Smarsh, a journaling technology for Office 365 ( 1500 )"
+      },
+      {
+        "partner": "Sits AG",
+        "role": "Senior Technical Consultant",
+        "duration": "3 months ( 2022 )",
+        "keyProject": "Lonza",
+        "description": "Implementation of Microsoft Defender for Endpoint. (800 users)"
+      },
+      {
+        "partner": "InfoSys / Collabera",
+        "role": "Senior Technical Consultant",
+        "duration": "6 months ( 2022 - 2023 )",
+        "keyProject": "BMW Group",
+        "description": "Performance planning and scaling of the mixed Exchange 2013 and 2019 infrastructure. ( 125000 users )"
+      },
+      {
+        "partner": "Computer Futures",
+        "role": "Senior Technical Consultant",
+        "duration": "2 years 2019-2020",
+        "keyProject": "Dürr AG",
+        "description": "Enterprise Consultant for the Skype for Business environment / SIP Telephony ( 16000 )"
+      },
+      {
+        "partner": "Commotron",
+        "role": "Senior Technical Consultant",
+        "duration": "6 months ( 2018 )",
+        "keyProject": "Berufgenossenschaft DE",
+        "description": "Lotus Notes Migration to Exchange Server 2016. Exchange Hybrid Coexistence. ( 10000 users )"
+      }
+    ]
+  }
