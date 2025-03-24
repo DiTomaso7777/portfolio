@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 export default function Resume() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -47,13 +48,32 @@ export default function Resume() {
                 className="rounded-full object-cover border-4 border-blue-500 transition-opacity duration-500"
             />
             </div>
-          <div>
-            <h1 className="text-4xl font-bold mb-2 text-gray-800">Marius Radulescu</h1>
-            <h2 className="text-2xl text-blue-600 mb-4">Security Architect - Digitalization & AI Developer</h2>
-            <p className="text-gray-600">
+     
+                    <div>
+          <h1 className="text-4xl font-bold mb-2 text-gray-800">Marius Radulescu</h1>
+          <h2 className="text-2xl text-blue-600 mb-4">Security Architect - Digitalization & AI Developer</h2>
+          <p className="text-gray-600 mb-4">
             20+ years of IT excellence, architecting secure systems, 8+ years of business leadership, former MVP for Symantec, and a Microsoft Partner Network consultant.
-            </p>
-          </div>
+          </p>
+          <div className="flex flex-col space-y-2">
+  <a 
+    href="mailto:marius.radulescu@outlook.com" 
+    className="flex items-center space-x-2 hover:text-blue-600 transition-colors"
+  >
+    <EnvelopeIcon className="h-5 w-5 text-gray-600" />
+    <span className="text-gray-600 hover:text-blue-600">marius.radulescu@outlook.com</span>
+  </a>
+  <a 
+    href="tel:+491639069470"
+    className="flex items-center space-x-2 hover:text-blue-600 transition-colors"
+  >
+    <PhoneIcon className="h-5 w-5 text-gray-600" />
+    <span className="text-gray-600 hover:text-blue-600">+49 163 906 9470</span>
+  </a>
+</div>
+        </div>
+
+
         </motion.div>
 
         {/* Skills Section */}
@@ -65,7 +85,7 @@ export default function Resume() {
         >
           <h3 className="text-2xl font-bold mb-4 text-gray-800">Skills</h3>
           <div className="flex flex-wrap gap-2">
-            {["Identity Master", "Next.js", "M365 Master", "Node.js", "Azure", "Security Master", "Auth Middleware", "Cryptography","GraphQL", "Digitalization"]
+            {["Identity Master", "Next.js", "M365 Master", "Node.js", "Azure", "Security Master", "Forensics", "Legal investigation", "Compliance", "Auth Middleware[Clerk, Auth0, MSAL]", "Cryptography","GraphQL", "Digitalization"]
               .map((skill, index) => (
                 <span 
                   key={index}
@@ -88,17 +108,24 @@ export default function Resume() {
           <h3 className="text-2xl font-bold mb-4 text-gray-800">Experience</h3>
           <div className="space-y-6">
             <div className="border-l-2 border-blue-500 pl-4">
-              <h4 className="text-xl font-semibold text-gray-800">Security Architect</h4>
+              <h4 className="text-xl font-semibold text-gray-800">Applicaation & Security Architect</h4>
               <div className="flex flex-col space-y-1">
                   <p className="text-blue-600 font-semibold">BMW Group AG</p>
                   <p className="text-blue-500">Munich and South Carolina</p>
                   <p className="text-blue-400 text-sm">2024 - Present</p>
                 </div>
-              <p className="text-gray-600 mt-2">
-                Digitalization and automation of the eDiscovery process: my role as a main developer of the eDiscovery app and integration with required platforms.
-                Privileged Access Management: design and implementation of the PAM solution for the BMW Group Exchange Online.
-                eDiscovery process 
-              </p>
+                <p className="text-gray-600 mt-2">
+  Technical Leader and main developer for the SharePoint Statistics app ( Next JS, Microsoft Graph API ).
+</p>
+<p className="text-gray-600 mt-2">
+  Technical Leader and main developer for the app and digitalization of legal investigation processes ( React, PostgreSQL, Express, Azure SAS, Service Now ).
+</p>
+<p className="text-gray-600 mt-2">
+  Privileged Access Management for Exchange Online - design and implementation.
+</p>
+<p className="text-gray-600 mt-2">
+  Migration of OnPrem Exchange Mail Search Export to Purview eDiscovery - process design and approval with external audit companies.
+</p>
             </div>
             <div className="border-l-2 border-blue-500 pl-4">
               <h4 className="text-xl font-semibold text-gray-800">Technical Migration Manager & Migration Consultant</h4>
