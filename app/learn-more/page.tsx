@@ -21,7 +21,7 @@ export default function Resume() {
         }, 3000);
         
         return () => clearInterval(interval);
-    }, []);
+    }, [images.length]);
 
     return (
         <div className="w-screen min-h-screen relative py-16 px-4"
@@ -136,7 +136,7 @@ export default function Resume() {
                             </div>
                             <p className="text-gray-600 mt-2">
                             As a technical consultant, my mission was to upgrade
-Microsoft's partner companies to the latest technologies in
+Microsoft&apos;s partner companies to the latest technologies in
 various ways, such as 1:1 consulting, workshops, events,
 strategy meetings and migration roadmaps. The main
 technologies that I was allowed to accompany, were Exchange
